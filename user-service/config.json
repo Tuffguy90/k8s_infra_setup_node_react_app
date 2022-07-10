@@ -1,0 +1,10 @@
+{
+  "DEV": {
+    "SELF_HOST": "http://localhost:3001",
+    "AUTH_HOST": "http://localhost:3002"
+  },
+  "PROD": {
+    "SELF_HOST": "http://cluserip-user-srv:3001",
+    "AUTH_HOST": "http://cluserip-auth-srv:3002"
+  }
+}

@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 app.get("/fire", (req, res) => {
   axios
     .post(`${AUTH_HOST}/event`, {
-      test: "data",
+      test: "data1",
     })
     .then(({ data }) => {
       console.log("event fired and response ", data)
